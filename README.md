@@ -4,7 +4,7 @@ I'm a coder based out of Stockholm, I work mostly on distributed system design a
 
 I'm currently working on a reactive data-lake, whatever that is. If you want to hear a rambling pitch on why it is awesome let me know.
 
-If I happen to be your "boss" or you for some other reason have to "deal with my [expletive deleted]" you should read my [README](https://github.com/williamhogman/working-with-will/blob/master/README.org`) file.
+If I happen to be your "boss" or you for some other reason have to "deal with my [expletive deleted]" you should read my [README](https://github.com/williamhogman/working-with-will/blob/master/README.org) file.
 
 Things I talk too much about:
 - Kubernetes
