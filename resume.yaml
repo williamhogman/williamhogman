@@ -5,7 +5,7 @@ basics:
   email: "me@whn.se"
   phone: "+46702638633"
   summary: Experienced engineering leader and full-stack developer, focused on distributed systems, databases and data-science. I know the entire stack from Infra to Frontend, to product management and budgeting.
-  url: "https://whn.se"
+  website: "https://whn.se"
   location:
     city: Stockholm
     countryCode: "SE"
