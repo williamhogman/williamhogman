@@ -1,0 +1,198 @@
+$schema: "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json"
+
+basics:
+  name: "William Rudenmalm"
+  email: "me@whn.se"
+  phone: "+46702638633"
+  summary: Experienced engineering leader and full-stack developer, focused on distributed systems, databases and data-science. I know the entire stack from Infra to Frontend, to product management and budgeting.
+  url: "https://whn.se"
+  location:
+    city: Stockholm
+    countryCode: "SE"
+  profiles:
+    - network: twitter
+      username: "w_hgm"
+      url: "https://twitter.com/w_hgm"
+    - network: github
+      username: "williamhogman"
+      url: "https://github.com/williamhogman"
+
+work:
+  - name: Creandum
+    position: Lead Developer
+    location: Stockholm
+    description: Creandum is a leading European Venture Capital firm with offices in SF, Berlin and Stockholm.
+    summary: "My work is concerned with creating an internal data platform for finding promising new startups."
+    startDate: "2020-09"
+    highlights:
+      - Joined the project as the first engineer
+      - Implemented a modern platform suitable for the team size with GitOps and Prometheus
+      - Built performance critical services in Rust
+      - Designed Remote-first hiring strategy
+    tech:
+      - Rust
+      - Google Cloud Platform
+      - Kubernetes, Prometheus
+      - Golang
+      - Typescript
+      - ArgoCD
+  - name: Rocker
+    position: Engineering Director
+    startDate: "2019-09"
+    endDate: "2020-09"
+    description: Rocker is Sweden’s leading challenger bank. With products in e-commerce checkout services, consumer lending, debit cards.
+    summary: "I joined the company as its first Engineering Director and was responsible for driving key strategic initiatives"
+    highlights:
+      - "Restructured and got the engineering team back to hitting targets for the companies’ fastest growing product."
+      - "Rebuilt Elixir engineering team from scratch after retention issues."
+      - "Set up teams and prepared the organization for internationalization, critical for the companies’ path to an IPO"
+      - "Worked on improving hiring processes and hired 12 engineers in 6 months (up from 2 prev. 6 months)"
+      - "Drove project designing a platform scalable to a team size of 150 engineers."
+      - "Held interim role as Head of Operations, managing the companies’ platform and infrastructure, leading the work implementing Prometheus, and GitOps on Kubernetes"
+    tech:
+      - Google Cloud Platform
+      - Kubernetes
+      - Prometheus
+      - Scala
+      - Elixir
+      - React Native
+      - FluxCD
+      - Helm
+      - PostgreSQL
+  - name: Bolt
+    position: Software Engineering Consultant
+    startDate: "2019-06-01"
+    endDate: "2019-09-31"
+    description: Bolt is the leading ride-sharing platform in Central Europe and Africa, offering services in ride-sharing, urban mobility and food delivery.
+    tech:
+      - Docker
+      - TypeScript
+      - Node.js
+      - AWS
+      - MySQL
+      - Redis
+    highlights:
+      - "Built performant systems to highly performant region detection systems"
+      - "Worked on the core services tracking the positions of drivers"
+  - position: "Software Engineering Consultant"
+    startDate: "2019-04-01"
+    endDate: "2019-06-31"
+    name: Qualifier.AI
+    description: Qualifier.AI is an AI-based tool for automating the sourcing and qualification part of the sales process.
+    summary:  As part of my assignment I worked on containerizing and making server-less important parts of the infrastructure.
+    tech:
+      - Ruby on Rails
+      - Docker
+      - Google Cloud Functions
+      - Serverless Framework
+  - position: CTO
+    name: Klira
+    startDate: "2017-01-01"
+    endDate: "2019-04-31"
+    highlights:
+      - Built a product with a turnover of 15mm USD / year and an operating margin of 30%
+      - Grew engineering organization from 0 to 18 engineers in ~2 years
+      - Replaced PHP legacy application with a Kotlin and Kafka based microservice architecture
+      - Implemented Continuous Deployment with Kubernetes
+      - Micro-service-based frontend architecture 
+      - Implemented state of the art monitoring based on Prometheus
+      - Responsible for budgeting and product management
+    tech:
+      - Kotlin
+      - Java
+      - Spring Boot
+      - Prometheus
+      - Kafka
+      - Grafana
+      - MySQL/MariaDB
+      - Docker
+      - Kubernetes
+      - Redux
+      - React.JS
+      - styled-components
+      - Next.js
+      - gatsby.js
+      - Node.js
+      - Google Cloud Platform (GCP)
+      - AWS
+      - JMX
+  - position: VP Engineering
+    startDate: "2015-02"
+    endDate: "2017-01"
+    name: Aevy
+    description: Aevy was a VC-backed company building a search engine helping tech companies find top-talent. To do this Aevy aggregated data from various sources on the web such as Github, StackOverflow and Facebook.
+    tech:
+      - React.JS
+      - Clojure
+      - Ruby
+      - Elixir
+      - PostgreSQL
+      - RabbitMQ
+      - Ansible
+      - Docker
+      - Cassandra
+    highlights:
+      - Ported Ember-based front-end to a React SPA
+      - Dockerized polyglot architecture including applications in Elixir, Clojure and Ruby. 
+      - Responsible for talent acquisition and evaluation
+      - Introduced Ansible reproducible infrastructure
+      - Replaced Sidekiq-based queuing architecture with RabbitMQ, allowing a more event-driven architecture
+      - Operated bare-metal Elasticsearch with 15 nodes with 1TB of RAM at a cost of 2000 USD/month and no capex.
+      - Operated bare-metal Postgres clusters with single instance capacities of 20TB
+      - Introduced and operated bare-metal Cassandra cluster
+      - Built an extremely saleable SMTP email-checking client with custom protocol logic in Elixir, achieving through put in the tens of thousands of operations per second
+  - position: Software Engineer
+    startDate: "2014-09-01"
+    endDate: "2015-02-31"
+    name: 5Monkeys
+    description: 5Monkeys is web agency helping its customers build and implement their great ideas. I returned to 5Monkeys to continue working on various client projects.
+    highlights:
+      - Worked on internal portal for a managzine publisher
+      - Built e-commerce store-front in Django
+    tech:
+      - Oracle
+      - MySQL
+      - Python
+      - Django
+
+  - title: Software Engineer
+    name: Tictail
+    description: Tictail (acq. by Shopify 2018) called themselves a “tumblr for e-commerce”, the aim of the company was to make setting up an online store easy and accessible to the masses.
+    dateStart: "2014-05"
+    dateEnd: "2014-09"
+    highlights:
+      - Part of the ARPU-team working towards increasing average revenue per user
+      - Building transaction logic for Tictail’s App store for 3rd party plugins
+    tech:
+      - AWS
+      - MySQL
+      - Python
+      - flask-restful
+      - JavaScript
+
+  - position: Software Engineer
+    dateStart: "2014-05-01"
+    dateEnd: "2014-09-31"
+    name: "5Monkeys"
+    summary: I worked with a variety of client projects all based on the Django + Python stack. One of the clients I worked with a was a peer to peer lending company, where I built the platform where lenders and borrowers could see each other’s tenders.
+    tech:
+      - MySQL
+      - Python
+      - Django
+      - Redis
+  - position: Software Engineer
+    startDate: "2013-05-01"
+    endDate: "2013-10-31"
+    name: AgFlow
+    description: At Agflow we were some of the earliest users of React outside of Facebook. As the only front-end developer I was responsible for building the front-end for our trading platform.
+    tech:
+      - React.JS
+      - Go
+      - Javascript
+education:
+  - institution: Stockholm University
+    area: Computer Science (Machine learning)
+    studyType: Masters (one year program)
+  - institution: Stockholm University
+    area: Computer Science
+    studyType: Bachelors
