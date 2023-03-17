@@ -1,0 +1,29 @@
+profileLinks:
+- href: tel:+46702638633
+  name: "+46702638633"
+- href: mailto:me@whn.se
+  name: me@whn.se
+- href: https://twitter.com/w_hgm
+  name: "@w_hgm"
+- href: https://linkedin.com/in/whnse
+  name: LinkedIn
+- href: https://blog.whn.se/
+  name: Blog
+accounts:
+  twitter: "@w_hgm"
+pageHeading: William Rudenmalm
+cannonical: https://www.whn.se/
+siteName: whn.se
+title: William Rudenmalm - whn.se - William Rudenmalm's webpage
+locale: en_US
+description: William Rudenmalm is an engineering leader based in Stockholm Sweden.
+  On this website with links to all the things that William is doing including Rust,
+  Kubernetes, data science and startups.
+pageText: |-
+  William is an european technologist passionate about the next big
+  thing and the people building it. Among William's interests is scaling
+  engineering organizations and navigating trade offs of architecture
+  and velocity. William's expertise lies in distributed systems,
+  scalability and machine learning. In terms of particular technologies,
+  William enjoys working with Kubernetes, Rust, nats, Kafka and neo4j.
+  [William is ocassionally avaliable for consulting through Sobel.IO](https://sobel.io/)
