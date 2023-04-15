@@ -2,6 +2,9 @@
 
 Looks like you've stumbled upon my GitHub page.
 
+Currently building [llm-chain](https://llm-chain.xyz/), a rust framework for working with LLMs
+
+
 I'm a coder hailing from the beautiful city of Stockholm, where I mostly tinker with distributed system design and relentlessly pursue engineering efficiency. During my workdays, you'll probably find me drowning in YAML files and sketching diagrams. So, it's safe to say that I've earned a tiny bit of sympathy. 😅
 
 If fate has made me your "boss" or, for some other cosmic reason, you need to "endure my [expletive deleted]", do yourself a favor and check out my [README](https://github.com/williamhogman/working-with-will/blob/master/README.org) file. It's your survival guide! 📚
